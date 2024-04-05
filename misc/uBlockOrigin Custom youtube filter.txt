@@ -1,0 +1,14 @@
+! YouTube Fix & Customization v1.7
+! (1-2/12) YouTube 4 Videos Per Row Fix (Home and Channel Pages)
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
+! (3-4/12) YouTube 4 Videos Per Row Fix (Channel Page margin fix)
+youtube.com##ytd-rich-item-renderer[is-slim-grid]:first-of-type:style(margin-left: auto !important;)
+youtube.com##ytd-rich-item-renderer[is-slim-grid]:last-of-type:style(margin-right: auto !important;)
+! (5-6/12) YouTube 4 Videos Per Row Fix (Font Size fix)
+youtube.com###video-title.ytd-rich-grid-media, #video-title.ytd-rich-grid-slim-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
+youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important;)
+! (7/12) YouTube 4 Videos Per Row Fix (Removes annoying horizontal scrollbar)
+youtube.com##body:style(overflow-x: hidden !important;) 
+! (7/10) YouTube Search Results Video Thumb Size Fix / YouTube Fix & Customization
+youtube.com##ytd-video-renderer[use-bigger-thumbs][bigger-thumbs-style="BIG"] ytd-thumbnail.ytd-video-renderer, ytd-video-renderer[use-bigger-thumbs] ytd-thumbnail.ytd-video-renderer, ytd-radio-renderer[use-bigger-thumbs] ytd-thumbnail.ytd-radio-renderer, #avatar-section.ytd-channel-renderer:style(max-width: 360px !important;)
