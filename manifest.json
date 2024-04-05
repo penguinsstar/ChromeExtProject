@@ -1,19 +1,25 @@
 {
+  "manifest_version": 3,
   "name": "Penguinsstar Custom Extension",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Misc functions",
   "background": {
-    "service_worker": "backgroundript.js"
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
   },
-  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback", "tabs"],
+  "permissions": ["declarativeNetRequest"],
   "host_permissions": [
-    "https://www.youtube.com/*"
+    "*://*.youtube.com/*"
   ],
-  "manifest_version": 3,
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "penguinsstar@gmail.com"
+    }
   }
 }
