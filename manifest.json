@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Penguinsstar Custom Extension",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Misc functions",
   "background": {
     "service_worker": "background.js",
     "scripts": ["background.js"]
   },
-  "permissions": ["declarativeNetRequest"],
+  "permissions": ["declarativeNetRequest", "webNavigation"],
   "host_permissions": [
     "*://*.youtube.com/*"
   ],
