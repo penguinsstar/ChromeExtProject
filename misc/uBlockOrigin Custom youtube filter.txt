@@ -1,3 +1,15 @@
+youtube.com##.html5-endscreen-content
+youtube.com##.html5-endscreen
+youtube.com##.ytp-ce-element
+youtube.com##.videowall-endscreen
+! 2021-05-10 https://www.youtube.com
+youtube.com##.ytp-button.ytp-next-button
+
+! Remove playback speed slider
+youtube.com##.ytp-menuitem-with-footer
+! Remove sleep timer
+youtube.com##.ytp-menuitem:has(> .ytp-menuitem-icon > svg > path[d^="M16.67,4.31C19.3"])
+
 ! YouTube Fix & Customization v1.7
 ! (1-2/12) YouTube 4 Videos Per Row Fix (Home and Channel Pages)
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
