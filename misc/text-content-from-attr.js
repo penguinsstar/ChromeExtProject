@@ -1,6 +1,5 @@
-// Create a map entry in the global scope:
 textContentFromAttr = function(selector, attrName) {
-    const updateElements = () => {
+    const update = () => {
         const elements = document.querySelectorAll(selector);
         for (const el of elements) {
             const val = el.getAttribute(attrName);
@@ -8,11 +7,8 @@ textContentFromAttr = function(selector, attrName) {
         }
     };
 
-    updateElements();
+    update();
 
-    const observer = new MutationObserver(() => {
-        updateElements();
-    });
-
+    const observer = new MutationObserver(update);
     observer.observe(document, { childList: true, subtree: true });
 };
