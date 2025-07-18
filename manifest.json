@@ -4,7 +4,8 @@
   "version": "1.2.0",
   "description": "Misc functions",
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
   },
   "permissions": ["declarativeNetRequest", "webNavigation"],
   "host_permissions": [
