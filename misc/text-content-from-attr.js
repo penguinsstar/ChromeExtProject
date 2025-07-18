@@ -1,5 +1,5 @@
 textContentFromAttr = function(selector, attrName) {
-    const update = () => {
+    const updateElements = () => {
         const elements = document.querySelectorAll(selector);
         for (const el of elements) {
             const val = el.getAttribute(attrName);
@@ -7,8 +7,11 @@ textContentFromAttr = function(selector, attrName) {
         }
     };
 
-    update();
+    updateElements();
 
-    const observer = new MutationObserver(update);
+    const observer = new MutationObserver(() => {
+        updateElements();
+    });
+
     observer.observe(document, { childList: true, subtree: true });
 };
