@@ -22,4 +22,8 @@ chrome.runtime.onInstalled.addListener(function() {
 
 chrome.webNavigation.onHistoryStateUpdated.addListener(function(details) {
   chrome.tabs.reload(details.tabId);
-}, { url: [{ urlMatches: 'https://www\\.youtube\\.com/shorts/(.*)$' }] });
+}, { url: [
+    { urlMatches: 'https://www\\.youtube\\.com/shorts/(.*)$' },
+    { urlMatches: 'https://www\\.youtube\\.com/feed/subscriptions/shorts' }
+  ] 
+});

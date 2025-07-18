@@ -4,12 +4,18 @@
   "version": "1.2.0",
   "description": "Misc functions",
   "background": {
-    "service_worker": "background.js",
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "permissions": ["declarativeNetRequest", "webNavigation"],
   "host_permissions": [
     "*://*.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/feed/subscriptions/shorts"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
   ],
   "icons": {
     "16": "images/icon-16.png",
