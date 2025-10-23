@@ -4,6 +4,7 @@ youtube.com##.ytp-ce-element
 youtube.com##.videowall-endscreen
 ! 2021-05-10 https://www.youtube.com
 youtube.com##.ytp-button.ytp-next-button
+youtube.com##.ytp-fullscreen-grid-stills-container
 
 ! Remove playback speed slider
 youtube.com##.ytp-menuitem-with-footer
@@ -28,6 +29,9 @@ youtube.com##ytd-video-renderer[use-bigger-thumbs][bigger-thumbs-style="BIG"] yt
 ! Remove youtube leaderboard live chat button
 youtube.com###viewer-leaderboard-entry-point
 
+
 ! Aug 18, 2025 https://hc.homeinformationpackages.com (memory leak fix)
 ||www.facebook.com/plugins/like_box.php?app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df46e28a5f06a1f6e9%26domain%3Dhc.homeinformationpackages.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fhc.homeinformationpackages.com%252Ff4040e2e049d311b7%26relation%3Dparent.parent&container_width=543&header=false&height=315&href=https%3A%2F%2Fwww.facebook.com%2Fdawsonsawyerhomes%2F&locale=en_US&sdk=joey&show_faces=false&stream=true&width=432$subdocument
 
+twitch.tv##+js(twitch-videoad)
+! https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/6eefa4d2fa02a51a34b61a5dea45f6b42d637060/video-swap-new/video-swap-new-ublock-origin.js
