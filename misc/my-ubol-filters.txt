@@ -1,0 +1,26 @@
+www.youtube.com##div.style-scope.ytd-rich-shelf-renderer > div.style-scope.ytd-rich-shelf-renderer > div.style-scope.ytd-rich-shelf-renderer
+www.youtube.com##ytd-rich-section-renderer > div
+
+youtube.com###viewer-leaderboard-entry-point
+youtube.com##.branding-img-container
+youtube.com##.html5-endscreen
+youtube.com##.html5-endscreen-content
+youtube.com##.videowall-endscreen
+youtube.com##.ytp-button.ytp-next-button
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-fullscreen-grid-stills-container
+youtube.com##.ytp-menuitem-with-footer
+youtube.com##.ytp-menuitem:has(> .ytp-menuitem-icon > svg > path[d^="M16.67,4.31C19.3"])
+youtube.com##.ytp-menuitem:has(> .ytp-menuitem-label > .ytp-menuitem-container-with-badge > .ytp-menuitem-premium-badge)
+youtube.com##.ytp-variable-speed-panel-preset-button-wrapper:has(> .ytp-button > .ytp-variable-speed-panel-premium-upsell-icon)
+youtube.com###metadata-line.ytd-video-meta-block:style(font-size: 1.2rem !important; line-height: 1.8rem !important;)
+youtube.com###secondary.ytd-watch-flexy.style-scope:style(width: 25% !important;)
+youtube.com###video-title.ytd-rich-grid-media, #video-title.ytd-rich-grid-slim-media:style(font-size: 1.4rem !important; line-height: 2rem !important;)
+youtube.com##.ytContentMetadataViewModelMetadataRow:style(flex-wrap: wrap;)
+youtube.com##.ytLockupViewModelHorizontal .ytLockupViewModelContentImage:style(width: 40% !important;)
+youtube.com##.ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
+youtube.com##.ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com##.ytd-rich-item-renderer[is-slim-grid]:first-of-type:style(margin-left: auto !important;)
+youtube.com##.ytd-rich-item-renderer[is-slim-grid]:last-of-type:style(margin-right: auto !important;)
+youtube.com##body:style(overflow-x: hidden !important;)
+youtube.com##ytd-video-renderer[use-bigger-thumbs][bigger-thumbs-style="BIG"] ytd-thumbnail.ytd-video-renderer, ytd-video-renderer[use-bigger-thumbs] ytd-thumbnail.ytd-video-renderer, ytd-radio-renderer[use-bigger-thumbs] ytd-thumbnail.ytd-radio-renderer, #avatar-section.ytd-channel-renderer:style(max-width: 360px !important;)
