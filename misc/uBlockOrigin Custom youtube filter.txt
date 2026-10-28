@@ -24,8 +24,10 @@ youtube.com###secondary.ytd-watch-flexy.style-scope:style(width: 25% !important;
 ! Add extra row for thumbnail text
 youtube.com##.ytContentMetadataViewModelMetadataRow:style(flex-wrap: wrap;)
 
+
 ! Resize subscriptionpage recommended
 ! youtube.com##.ytd-rich-shelf-renderer:style(width: 15% !important;)
+
 
 ! YouTube Fix & Customization v1.7
 ! (1-2/12) YouTube 4 Videos Per Row Fix (Home and Channel Pages)
@@ -44,6 +46,9 @@ youtube.com##ytd-video-renderer[use-bigger-thumbs][bigger-thumbs-style="BIG"] yt
 
 ! Remove youtube leaderboard live chat button
 youtube.com###viewer-leaderboard-entry-point
+! Remove games in sidebar
+youtube.com##ytd-horizontal-card-list-renderer
+
 
 ! Remove youtube bottom right channel profile image
 youtube.com##.branding-img-container
